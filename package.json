@@ -1,0 +1,20 @@
+{
+    "name": "@drodrigomoura/prettier-config",
+    "version": "1.0.1",
+    "description": "@drodrigomoura Prettier config",
+    "main": "./.prettierrc.js",
+    "prettier": ".prettierrc.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+      ".prettierrc.js"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "prettier": "3.1.1"
+    }
+  }
+  
