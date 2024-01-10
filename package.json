@@ -1,6 +1,6 @@
 {
     "name": "@drodrigomoura/prettier-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "@drodrigomoura Prettier config",
     "main": "./.prettierrc.js",
     "prettier": ".prettierrc.js",
@@ -17,4 +17,3 @@
       "prettier": "3.1.1"
     }
   }
-  
