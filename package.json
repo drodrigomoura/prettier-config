@@ -3,24 +3,24 @@
     "version": "1.0.2",
     "description": "@drodrigomoura Prettier config",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/drodrigomoura/prettier-config"
+        "type": "git",
+        "url": "git+https://github.com/drodrigomoura/prettier-config.git"
     },
     "publishConfig": {
-      "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com"
     },
     "main": "./.prettierrc.js",
     "prettier": ".prettierrc.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "files": [
-      ".prettierrc.js"
+        ".prettierrc.js"
     ],
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "prettier": "3.1.1"
+        "prettier": "3.1.1"
     }
-  }
+}
