@@ -1,7 +1,7 @@
 const config = {
     endOfLine: "lf",
     printWidth: 80,
-    tabWidth: 2,
+    tabWidth: 4,
     trailingComma: "es5",
     singleQuote: false,
     jsxSingleQuote: false,
