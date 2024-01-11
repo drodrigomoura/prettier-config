@@ -9,18 +9,23 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
-    "main": "./.prettierrc.js",
-    "prettier": ".prettierrc.js",
+    "main": "dist/index.js",
+    "prettier": "./dist/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
     },
     "files": [
-        ".prettierrc.js"
+        "dist"
     ],
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "peerDependencies": {
+        "prettier": "3.1.1",
+        "typescript": "^5.3.3"
+    },
     "devDependencies": {
-        "prettier": "3.1.1"
+        "@types/prettier": "^3.0.0"
     }
 }
