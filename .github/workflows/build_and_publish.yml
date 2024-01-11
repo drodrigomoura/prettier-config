@@ -25,8 +25,13 @@ jobs:
       # - name: Build project
       #   run: npm run build
 
-      - name: Publish to GitHub Packages
-        if: github.ref == 'refs/heads/main'
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
-          npm publish
+      # - name: Publish to GitHub Packages
+      #   if: github.ref == 'refs/heads/main'
+      #   run: |
+      #     echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
+      #     npm publish
+
+      - name: Publish to GitHub Package Registry
+        run: npm publish --registry=https://npm.pkg.github.com/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
