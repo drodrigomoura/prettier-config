@@ -2,6 +2,13 @@
     "name": "@drodrigomoura/prettier-config",
     "version": "1.0.2",
     "description": "@drodrigomoura Prettier config",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/drodrigomoura/prettier-config"
+    },
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
     "main": "./.prettierrc.js",
     "prettier": ".prettierrc.js",
     "scripts": {
