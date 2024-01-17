@@ -8,6 +8,10 @@ const config: Options = {
     singleQuote: false,
     jsxSingleQuote: false,
     semi: true,
+    "importOrder": ["^@src/(.*)$", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "plugins": ["@trivago/prettier-plugin-sort-imports"]
 };
 
 export = config;

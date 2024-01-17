@@ -1,6 +1,6 @@
 {
     "name": "@drodrigomoura/prettier-config",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "description": "@drodrigomoura Prettier config",
     "main": "dist/index.js",
     "prettier": "./dist/index.js",
@@ -16,7 +16,7 @@
     "license": "ISC",
     "peerDependencies": {
         "prettier": "3.2.2",
-        "prettier-plugin-import-sort": "^0.0.7",
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
         "typescript": "^4.9.5"
     },
     "devDependencies": {
