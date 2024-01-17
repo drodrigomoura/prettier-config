@@ -1,14 +1,7 @@
 {
     "name": "@drodrigomoura/prettier-config",
-    "version": "1.0.6",
+    "version": "1.0.11",
     "description": "@drodrigomoura Prettier config",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/drodrigomoura/prettier-config.git"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
     "main": "dist/index.js",
     "prettier": "./dist/index.js",
     "scripts": {
@@ -22,10 +15,12 @@
     "author": "",
     "license": "ISC",
     "peerDependencies": {
-        "prettier": "3.1.1",
-        "typescript": "^5.3.3"
+        "prettier": "3.2.2",
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+        "typescript": "^4.9.5"
     },
     "devDependencies": {
-        "@types/prettier": "^3.0.0"
+        "@types/prettier": "^3.0.0",
+        "prettier": "^3.2.2"
     }
 }
