@@ -21,11 +21,13 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "peerDependencies": {
-        "prettier": "3.1.1",
+    "deepdependencies": {
+        "prettier": "3.2.2",
+        "prettier-plugin-import-sort": "^0.0.7",
         "typescript": "^5.3.3"
     },
     "devDependencies": {
-        "@types/prettier": "^3.0.0"
+        "@types/prettier": "^3.0.0",
+        "prettier": "^3.2.2"
     }
 }
