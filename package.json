@@ -1,6 +1,6 @@
 {
     "name": "@drodrigomoura/prettier-config",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "description": "@drodrigomoura Prettier config",
     "main": "dist/index.js",
     "prettier": "./dist/index.js",
